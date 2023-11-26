@@ -1,0 +1,73 @@
+body {
+  font-family: "Arial", sans-serif;
+  color: #333333;
+}
+
+header {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.navbar-brand .logo {
+  width: 40px;
+  margin-right: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+.navbar-brand:hover .logo {
+  transform: rotate(360deg);
+}
+
+.inicio {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.row {
+  margin: 20px 0;
+}
+
+.modelos img {
+  width: 100%;
+  height: auto;
+}
+
+.modelos h3 {
+  text-align: center;
+}
+
+.mapa_info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mapa {
+  margin-top: 20px;
+}
+
+.mapa_img {
+  width: 100%;
+  height: 300px;
+}
+
+.Datos_contacto {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
