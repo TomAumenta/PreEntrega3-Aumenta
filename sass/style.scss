@@ -1,13 +1,14 @@
 // Variables
 $primary-color: #343a40; // Color principal
 $secondary-color: #007bff; // Color secundario
-$background-color: #f8f9fa; // Color de fondo
+$background-color:#6b6c6d36; // Color de fondo
 $text-color: #333333; // Color de texto principal
 $link-color: #007bff; // Color de los enlaces
 $footer-bg-color: #343a40; // Color de fondo del pie de página
 
 // Estilos generales
 body {
+    background-color: $background-color;
     font-family: 'Arial', sans-serif;
     color: $text-color;
 }
@@ -36,6 +37,20 @@ header {
     }
 }
 
+.navbar-nav {
+    margin-top: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: $text-color;
+    margin-right: 15px;
+    text-decoration: none;
+
+    &:hover {
+        color: $link-color; // Cambia el color al pasar el ratón sobre el enlace
+    }
+}
+
 // Estilos del área de inicio
 .inicio {
     text-align: center;
@@ -44,6 +59,15 @@ header {
 }
 
 // Estilos de los modelos
+.modelos {
+    ul {
+        list-style: none; // Elimina los puntos de la lista
+        padding: 0;       // Elimina el relleno predeterminado
+        margin: 0;        // Elimina los márgenes predeterminados
+    }
+
+}
+
 .row {
     margin: 20px 0;
 }
@@ -81,10 +105,9 @@ header {
 // Estilos del pie de página
 footer {
     text-align: center;
-    background-color: $footer-bg-color;
+    background-color: #343a40;
     color: #ffffff;
     padding: 10px;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
