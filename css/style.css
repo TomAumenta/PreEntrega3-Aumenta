@@ -169,4 +169,10 @@ footer {
 .carousel-item {
   padding: 10%;
   background-color: rgba(107, 108, 109, 0.2117647059);
+}
+.carousel-item h5 {
+  color: #333333;
+}
+.carousel-item p {
+  color: #333333;
 }/*# sourceMappingURL=style.css.map */

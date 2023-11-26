@@ -198,4 +198,11 @@ form button {
 .carousel-item {
     padding: 10%;
     background-color: $background-color;
+    
+    h5{
+        color: $text-color;
+    }
+    p {
+        color: $text-color;
+    }
 }
