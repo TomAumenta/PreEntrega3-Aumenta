@@ -175,4 +175,23 @@ footer {
 }
 .carousel-item p {
   color: #333333;
+}
+
+.modelos h2 {
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+.modelos h2:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+.modelos p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

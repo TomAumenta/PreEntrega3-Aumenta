@@ -206,3 +206,32 @@ form button {
         color: $text-color;
     }
 }
+
+.modelos {
+    
+    h2{
+        
+        justify-content: center;
+        text-align: center;
+        margin-top: 40px;
+        
+        
+        
+        &:hover{
+            color: $secondary-color;
+            cursor: pointer;
+
+        }
+    }
+    
+    
+    p{
+        font-size: 16px; 
+        line-height: 1.5; 
+        margin-bottom: 20px; 
+        text-align: center; 
+        font-family: Arial, sans-serif; 
+        color: #333; 
+        font-weight: bold;
+    }
+}
